@@ -1,0 +1,150 @@
+{
+    "passages": [
+      {
+        "text": "You are a young traveler seeking adventure and to find themselves.  You are traveling along a long dirt road and come to a fork. You have 2 choices; continue straight to Dimfell or turn right Grimholde.\n\n[[Continue Straight->Dimfell]]\n[[Turn Right->Grimholde]]",
+        "links": [
+          {
+            "name": "Continue Straight",
+            "link": "Dimfell",
+            "pid": "2"
+          },
+          {
+            "name": "Turn Right",
+            "link": "Grimholde",
+            "pid": "3"
+          }
+        ],
+        "name": "Dirt Road",
+        "pid": "1",
+        "position": {
+          "x": "412",
+          "y": "189"
+        }
+      },
+      {
+        "text": "You arrive in Dimfell and are greated by a mighty Prince.  He ask you to come along with him on his adventure to find the sword of Ghalfi Obudrac, a mystical sword said to give the wielder the power to defeat a whole army alone.  The prince believes he has found the location of the sword,Castle Black.  Will you accompany him?\n\n[[Accompany The Prince on his Adventure->Castle Black]]\n[[Deny the Prince and stay in Dimfell->Dimfell]] ",
+        "links": [
+          {
+            "name": "Accompany The Prince on his Adventure",
+            "link": "Castle Black",
+            "pid": "4"
+          },
+          {
+            "name": "Deny the Prince and stay in Dimfell",
+            "link": "Dimfell",
+            "pid": "2"
+          }
+        ],
+        "name": "Dimfell",
+        "pid": "2",
+        "position": {
+          "x": "327",
+          "y": "337"
+        }
+      },
+      {
+        "text": "You arrive in Grimholde and are greated by the King of Grimholde.  He is seeking men to save his daughter, the fairest princess of them all, from a great dragon, Reithian, that has taken her.\n\n[[Help the princess->Reithian's Castle]]\n[[Deny the King and stay in Grimholde->Grimholde]] ",
+        "links": [
+          {
+            "name": "Help the princess",
+            "link": "Reithian's Castle",
+            "pid": "7"
+          },
+          {
+            "name": "Deny the King and stay in Grimholde",
+            "link": "Grimholde",
+            "pid": "3"
+          }
+        ],
+        "name": "Grimholde",
+        "pid": "3",
+        "position": {
+          "x": "611",
+          "y": "329"
+        }
+      },
+      {
+        "text": "As you arrive to Castle Black, you and the prince search the castle but decide to split up.  You hear the Prince scream for help from the Tombs.\n\n[[Go to the Princes aid->Tombs]]\n[[Stay in the Armory and search for the sword->Armory]]",
+        "links": [
+          {
+            "name": "Go to the Princes aid",
+            "link": "Tombs",
+            "pid": "5"
+          },
+          {
+            "name": "Stay in the Armory and search for the sword",
+            "link": "Armory",
+            "pid": "6"
+          }
+        ],
+        "name": "Castle Black",
+        "pid": "4",
+        "position": {
+          "x": "252",
+          "y": "487"
+        }
+      },
+      {
+        "text": "You find the prince in the tombs surrounded by a gang of goblins.  There numbers are far too great for the two of you but suddenly the sword of Ghalfi Obudrac appears, sensing your bravery, and gives you the power to save the Prince.  He takes you back to Dimfell where you are knighted Head Knight and protect the lands with the sword.",
+        "name": "Tombs",
+        "pid": "5",
+        "position": {
+          "x": "177",
+          "y": "637"
+        }
+      },
+      {
+        "text": "You stay in the Armory and the prince is vanquished.  In the corner of your eye you see the sword of Ghalfi Obudrac.  You grab the sword but the sword, sensing your cowardess, destroys you adding to it's power.",
+        "name": "Armory",
+        "pid": "6",
+        "position": {
+          "x": "393",
+          "y": "630"
+        }
+      },
+      {
+        "text": "You arrive at Reithian's castle and are met by Reithian at the the draw bridge.  He says \"I will give you a choice; fight me for your precious princess or drop your sword and i can give you untold riches and power.\"\n\n[[Fight the Dragon-> Courtyard]]\n[[Drop your sword->Treasury]]",
+        "links": [
+          {
+            "name": "Fight the Dragon",
+            "link": " Courtyard",
+            "pid": "8"
+          },
+          {
+            "name": "Drop your sword",
+            "link": "Treasury",
+            "pid": "9"
+          }
+        ],
+        "name": "Reithian's Castle",
+        "pid": "7",
+        "position": {
+          "x": "611",
+          "y": "479"
+        }
+      },
+      {
+        "text": "You raise your sword to the Dragon and have a fierce and fiery battle but you finally plunge your sword into a crack between a loose dragon scale and save the Princess.  The King og Grimholde is forever in your favor and gives you the place of prince as your reward.",
+        "name": " Courtyard",
+        "pid": "8",
+        "position": {
+          "x": "536",
+          "y": "629"
+        }
+      },
+      {
+        "text": "You drop your sword and the dragon leads you past the princess and into the treasurey where you find a collection of gold so great that you are overcome with greed.  As you dive into the collection you are slowly swallowed by the gold and turn into gold yourself; amongst all the other greed filled men that have come before you.",
+        "name": "Treasury",
+        "pid": "9",
+        "position": {
+          "x": "686",
+          "y": "629"
+        }
+      }
+    ],
+    "name": "project 01",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "A8010CFA-03D8-4CBB-9694-70335222851E"
+  }
